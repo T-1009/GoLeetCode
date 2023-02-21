@@ -8,7 +8,7 @@ package GoLeetCode
  *     Right *TreeNode
  * }
  */
- func isBalanced(root *TreeNode) bool {
+func isBalanced(root *TreeNode) bool {
     if root == nil {
         return true
     }
