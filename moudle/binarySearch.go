@@ -76,9 +76,9 @@ func searchLastLessElement(nums []int, target int) int {
 
 func main() {
 	nums := []int{1, 2, 2, 3, 4, 5}
-	fmt.Printf("%d\n%d\n%d\n%d",	searchFirstEqualElement(nums, 2), 
+	fmt.Printf("%d\n%d\n%d\n%d\n",	searchFirstEqualElement(nums, 2), 
 									searchLastEqualElement(nums, 2),
 									searchFirstGreaterElement(nums, 2),
 									searchLastLessElement(nums, 2))
-	fmt.Println(nums[6])
+	fmt.Println(nums[5])
 }
